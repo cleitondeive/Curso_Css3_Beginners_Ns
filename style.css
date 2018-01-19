@@ -3,9 +3,17 @@
     padding: 0;
 }
 
-#conteudo {
-    background-color: green;
+#exemplo {
+    background-color: rgb(240, 188, 17);
+    width: 500px;
     color: #fff;
-    padding: 20px;
-    max-width: 500px;
+    padding: 60px 30px 50px 30px;
+}
+
+#exemplo2 {
+    background-color: rgb(184, 169, 238);
+    width: 500px;
+    color: #fff;
+    padding: 60px 30px 50px 30px;
+    margin: 30px 20px 50px 40px;
 }
