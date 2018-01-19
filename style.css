@@ -2,12 +2,13 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-size: 100%;
     }
     
-    #bloco {
-        background-color: pink;
-        width: 700px;
-        color: #000;
-        height: 150px;
-        border-bottom-right-radius: 20px;
+    #bloco p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1em;
+        /*1em equivale a 16px;*/
+        font-variant: normal;
+        font-style: oblique;
     }
