@@ -3,17 +3,9 @@
     padding: 0;
 }
 
-.texto-principal {
-    color: rgb(182, 45, 68);
-    text-align: center;
-}
-
-.fundo-principal {
-    background-color: #ccc;
-}
-
 #conteudo {
-    background-color: blue;
+    background-color: green;
+    color: #fff;
     padding: 20px;
-    color: white;
+    max-width: 500px;
 }
