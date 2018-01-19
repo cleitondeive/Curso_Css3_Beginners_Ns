@@ -1,13 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-#conteudo {
-    background-color: red;
-    color: #fff;
-    width: 500px;
-    padding: 20px;
-    box-shadow: 10px 10px 5px green;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #conteudo {
+        background-color: gray;
+        width: 400px;
+        color: #000;
+        height: 50px;
+        overflow: auto;
+    }
+    
+    #conteudo p {
+        opacity: 0.3;
+    }
