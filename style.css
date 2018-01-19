@@ -3,17 +3,29 @@
     padding: 0;
 }
 
-#exemplo {
-    background-color: rgb(240, 188, 17);
-    width: 500px;
-    color: #fff;
-    padding: 60px 30px 50px 30px;
+p {
+    color: red;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+    direction: ltr;
+    letter-spacing: 02px;
+    word-spacing: 4px;
+    text-shadow: 1px 50px blue;
 }
 
-#exemplo2 {
-    background-color: rgb(184, 169, 238);
-    width: 500px;
-    color: #fff;
-    padding: 60px 30px 50px 30px;
-    margin: 30px 20px 50px 40px;
+h1 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: right;
+    text-decoration: overline;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: line-through;
 }
