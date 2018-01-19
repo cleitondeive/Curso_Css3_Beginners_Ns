@@ -1,5 +1,36 @@
-h2 {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
     color: blue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
+}
+
+p {
+    color: green;
+    font-size: 12px;
+}
+
+input[type="text"] {
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ccc;
+    height: 35px;
+}
+
+input[name="Nemail"] {
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 209, 26);
+    height: 35px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(199, 40, 151);
+    height: 35px;
+    color: #fff;
 }
