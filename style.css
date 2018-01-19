@@ -1,31 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-p {
-    color: red;
-    text-transform: capitalize;
-    text-align: justify;
-    text-indent: 20px;
-    line-height: 30px;
-    direction: ltr;
-    letter-spacing: 02px;
-    word-spacing: 4px;
-    text-shadow: 1px 50px blue;
-}
-
-h1 {
-    text-align: left;
-    text-decoration: underline;
-}
-
-h2 {
-    text-align: right;
-    text-decoration: overline;
-}
-
-h3 {
-    text-align: center;
-    text-decoration: line-through;
+#conteudo {
+    background-color: red;
+    color: #fff;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px green;
 }
