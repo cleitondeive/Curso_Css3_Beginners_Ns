@@ -5,27 +5,19 @@
         font-size: 100%;
     }
     
-    #base {
-        background: linear-gradient(red, blue);
+    #conteudo {
         width: 600px;
-        height: 600px;
+        height: 1200px;
+        background-color: red;
+        position: relative;
     }
     
-    #esquerda {
-        background-color: rgb(121, 235, 14);
-        width: 300px;
-        height: 300px;
-        float: left;
-    }
-    
-    #direita {
-        background-color: rgb(31, 2, 34);
-        width: 300px;
-        height: 300px;
-        float: right;
-    }
-    
-    h1 {
+    #texto {
+        width: 500px;
+        background-color: green;
         color: #fff;
-        text-align: center;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        ;
     }
