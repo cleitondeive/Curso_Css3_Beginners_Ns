@@ -5,18 +5,7 @@
         font-size: 100%;
     }
     
-    #exemplo {
-        background-color: lightcoral;
-        width: 200px;
-        height: 200px;
-        transition-property: width;
-        transition-duration: 2s;
-        transition-timing-function: linear;
-        transition-delay: 2s;
-    }
-    
-    #exemplo:hover {
-        width: 350px;
-        height: 350px;
-        background-color: green;
+    body {
+        background-image: url(img/img-01.jpg);
+        color: rgb(10, 10, 10);
     }
