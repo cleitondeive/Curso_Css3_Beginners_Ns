@@ -5,6 +5,10 @@
         font-size: 100%;
     }
     
-    #bloco p {
+    #cores p {
         font-family: 'Kavivanar', cursive;
+        background: linear-gradient(to right, red, blue);
+        width: 500px;
+        color: #fff;
+        padding: 40px;
     }
